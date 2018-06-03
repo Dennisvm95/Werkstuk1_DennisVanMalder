@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0EB46620C13DF900310029 /* personSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0EB46520C13DF900310029 /* personSingleton.swift */; };
+		3F0EB46820C1423100310029 /* TableViewControllerPersons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0EB46720C1423100310029 /* TableViewControllerPersons.swift */; };
+		3F3930D120C1BBE700D22784 /* mapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3930D020C1BBE700D22784 /* mapController.swift */; };
+		3F3930D320C1E5FA00D22784 /* personAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3930D220C1E5FA00D22784 /* personAnnotation.swift */; };
+		3F3930D520C1EB4200D22784 /* PersonViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3930D420C1EB4200D22784 /* PersonViewController2.swift */; };
 		3F57145920B1B81D00FDEB7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57145820B1B81D00FDEB7F /* AppDelegate.swift */; };
 		3F57145B20B1B81D00FDEB7F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57145A20B1B81D00FDEB7F /* FirstViewController.swift */; };
 		3F57145D20B1B81D00FDEB7F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57145C20B1B81D00FDEB7F /* SecondViewController.swift */; };
@@ -15,6 +20,7 @@
 		3F57146520B1B81D00FDEB7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F57146320B1B81D00FDEB7F /* LaunchScreen.storyboard */; };
 		3F57147020B1B81D00FDEB7F /* Werkstuk1_DennisVanMalderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57146F20B1B81D00FDEB7F /* Werkstuk1_DennisVanMalderTests.swift */; };
 		3F57147B20B1B81D00FDEB7F /* Werkstuk1_DennisVanMalderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57147A20B1B81D00FDEB7F /* Werkstuk1_DennisVanMalderUITests.swift */; };
+		3F57148920B1BA0400FDEB7F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57148820B1BA0400FDEB7F /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F0EB46520C13DF900310029 /* personSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personSingleton.swift; sourceTree = "<group>"; };
+		3F0EB46720C1423100310029 /* TableViewControllerPersons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerPersons.swift; sourceTree = "<group>"; };
+		3F3930D020C1BBE700D22784 /* mapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapController.swift; sourceTree = "<group>"; };
+		3F3930D220C1E5FA00D22784 /* personAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personAnnotation.swift; sourceTree = "<group>"; };
+		3F3930D420C1EB4200D22784 /* PersonViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController2.swift; sourceTree = "<group>"; };
 		3F57145520B1B81D00FDEB7F /* Werkstuk1_DennisVanMalder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Werkstuk1_DennisVanMalder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F57145820B1B81D00FDEB7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F57145A20B1B81D00FDEB7F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,7 @@
 		3F57147620B1B81D00FDEB7F /* Werkstuk1_DennisVanMalderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Werkstuk1_DennisVanMalderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F57147A20B1B81D00FDEB7F /* Werkstuk1_DennisVanMalderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Werkstuk1_DennisVanMalderUITests.swift; sourceTree = "<group>"; };
 		3F57147C20B1B81D00FDEB7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F57148820B1BA0400FDEB7F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,12 @@
 				3F57146120B1B81D00FDEB7F /* Assets.xcassets */,
 				3F57146320B1B81D00FDEB7F /* LaunchScreen.storyboard */,
 				3F57146620B1B81D00FDEB7F /* Info.plist */,
+				3F57148820B1BA0400FDEB7F /* Person.swift */,
+				3F0EB46520C13DF900310029 /* personSingleton.swift */,
+				3F0EB46720C1423100310029 /* TableViewControllerPersons.swift */,
+				3F3930D020C1BBE700D22784 /* mapController.swift */,
+				3F3930D220C1E5FA00D22784 /* personAnnotation.swift */,
+				3F3930D420C1EB4200D22784 /* PersonViewController2.swift */,
 			);
 			path = Werkstuk1_DennisVanMalder;
 			sourceTree = "<group>";
@@ -262,8 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3930D120C1BBE700D22784 /* mapController.swift in Sources */,
 				3F57145D20B1B81D00FDEB7F /* SecondViewController.swift in Sources */,
 				3F57145920B1B81D00FDEB7F /* AppDelegate.swift in Sources */,
+				3F0EB46820C1423100310029 /* TableViewControllerPersons.swift in Sources */,
+				3F0EB46620C13DF900310029 /* personSingleton.swift in Sources */,
+				3F57148920B1BA0400FDEB7F /* Person.swift in Sources */,
+				3F3930D320C1E5FA00D22784 /* personAnnotation.swift in Sources */,
+				3F3930D520C1EB4200D22784 /* PersonViewController2.swift in Sources */,
 				3F57145B20B1B81D00FDEB7F /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

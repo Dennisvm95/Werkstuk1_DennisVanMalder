@@ -1,8 +1,8 @@
 //
-//  SecondViewController.swift
+//  persoonSingleton.swift
 //  Werkstuk1_DennisVanMalder
 //
-//  Created by student on 20/05/2018.
+//  Created by student on 01/06/2018.
 //  Copyright © 2018 student. All rights reserved.
 //
 
